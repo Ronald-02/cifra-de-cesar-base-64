@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+*{
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  color:#fff;
+  font-family: 'Source Sans Pro';
+}
+
+h1{
+  color: rgb(24, 83, 243);
+}
+
+body{
+  background: url(../img/code.gif);
+  display: flex;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.background img{
+  width: 100%;
+  height: 200%;
+}
+
+
+.bannervideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bannervideo video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+.container {
+  width: 1000px;
+  height: 90vh;
+  margin: 30px;
+  align-self: center;
+  display: -webkit-inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10px;
+  padding: 10px;
+  backdrop-filter: blur(6px);
+}
+h1 {
+  text-transform: uppercase;
+}
+#increment {
+  width: 50px;
+  background: rgb(22, 21, 21);
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 10px;
+  margin: 0 10px;
+  outline: none;
+  padding: 5px;
+  visibility: hidden;
+}
+#codificadoresinp {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+#receber {
+  background: rgba(22, 21, 21);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+#receberC {
+  background: rgb(22, 21, 21 );
+  border: 1px solid rgb(209, 202, 202);
+  border-radius: 10px;
+  display: none;
+  resize: none;
+  padding: 10px;
+  outline: none; 
+  height: 200px;
+}
+#entregar {
+  padding: 10px;
+}
+#entregarC {
+  padding: 10px;
+}
+#select {
+  background: rgba(22, 21, 21);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  outline: none;
+  width: 248px;
+  height: 30px;
+}
+#textinp {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+}
+.areainput {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+#receber {
+  padding: 10px;
+  width: 410px;
+  outline: none;  
+  resize: none;
+}
+#radioinp {
+  margin-top: 13px;
+}
+.content {
+  width: 440px;
+  height: 181px;
+  background: rgb(22, 21, 21);
+  align-self: flex-end;
+  background: rgba(22, 21, 21);
+  border: 1px solid #fff;
+  position: relative;
+  border-radius: 10px;
+}
+.contentC {
+  width: 440px;
+  height: 181px;
+  background: #fff;
+  align-self: flex-end;
+  background: rgb(22, 21, 21);
+  border: 1px solid #fff;
+  position: relative;
+  border-radius: 10px;
+  display: none;
+}
+button {
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  color: rgba(22, 21, 21);
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background: rgb(22, 21, 21);
+  outline: none;
+  transition: 0.1s;
+}
+button:hover {
+  background: rgb(22, 21, 21);
+  border: 1px solid #fff;
+  outline: none;
+}
+.bparagrafo {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.bparagrafo:hover {
+  font-weight: 700;
+  color: rgb(117, 32, 106);
+} 
+#entregar {
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+  outline: none;
+}
+#entregarC {
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+  outline: none;
+  display: none;
+}
+#digiteaMensagem {
+  font-size: 18px;
+  font-weight: 400;
+}
+#escolhacodificacao {
+  font-size: 18px;
+  font-weight: 400;
+}
+.rodape{
+  width: 300px;
+  margin: -60px;
+  margin-top: 15px;
+  align-self: flex-end;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 1px solid white;
+  font-weight: 100;
+  position: absolute;
+  padding: 5px;
+  background-color: rgb(8 8 8);
+
+}
+.rodape h2{
+  font-size: 16px;
+  text-align: center;
+
+}
+.rodape h3{
+  font-size: 16px;
+  text-align: center;
+
+}
+.icons ion-icon{
+  width: 25px;
+  height: 25px;
+  color: #fff;
+
+}
+.icons ion-icon:hover{
+  color: rgb(117, 32, 106);
+
+
+}
+@media screen and (max-width:700px) {
+
+  *{ 
+      margin-top:  0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+  }
+  
+  body{
+      display: flex;
+      list-style: none;
+      background-size: contain;
+      gap: 2rem;
+      width: .2%;
+      height: .2%;
+      box-sizing:border-box;
+  }
+  
+  h1{
+      margin-left: 150px;
+      font-size: 25px;
+  
+  }
+  
+  #increment{
+      flex-direction: column;
+  
+  }
+  
+  .conteiner{
+      width: 100px;
+      padding: 20px 0;
+      align-self: center;
+  }
+  
+  
+  
+  #codificadoresinp{
+      flex-direction: column;
+      width: 100px;
+      height: -100px;
+  
+  }
+  
+  
+  #textinp {  
+      width: 638px;
+      flex-direction: column;
+      display:flexbox;
+      border: 5px;
+      padding: 10px;
+  
+  }
+  
+  .rodape{
+      margin-left: 100px;
+      margin-top: 0;
+      font-size: 10px;
+      min-height: 0; 
+      min-width: 10px;
+  
+  
+  }
+  
+  #receber{
+      margin-left: 190px;
+      width: 455px;
+      flex-direction: column;
+      display:flexbox;
+      border: 5px solid white 5px;
+  
+  }
+  button{
+      margin-left: 150px;
+  }
+  p#digiteaMensagem{
+      margin-left: 10px;
+  }
+  select#select{
+      margin-left: 150px;
+  
+  }
+  input#codificar{
+      margin-left: 150px;
+  }
+  input#descodificar{
+  
+      margin-left: 150px;
+  }
+  label{
+      margin-left: 150px;
+  }
+  input#increment{
+      margin-left: 400px;
+  }
+  textarea#receberC{
+      margin-left: 170px;
+      padding: 30px;
+      width: 410px;
+  }
+  p#escolhacodificacao{
+      margin-left: 150px;
+  }
+  
+  
+  }
